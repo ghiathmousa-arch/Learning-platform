@@ -94,8 +94,6 @@ nav {
     height: 72px;
     display: flex;
     gap: 10px;
-    /* .box-selctor {
-    } */
     .box-selector {
       .imgandtext {
         display: flex;
@@ -658,6 +656,13 @@ footer {
     }
     .section-help {
       width: 120px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a{
+        color: #000000;
+        text-decoration: none;
+      }
     }
     .section-programs {
       width: 120px;

@@ -351,6 +351,13 @@ footer {
     }
     .section-help {
       width: 120px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
     }
     .section-programs {
       width: 120px;

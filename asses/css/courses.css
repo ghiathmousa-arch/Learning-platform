@@ -342,7 +342,6 @@ nav {
           display: flex;
           justify-content: space-between;
 
-
           .free {
             display: flex;
             gap: 5px;
@@ -446,6 +445,13 @@ footer {
     }
     .section-help {
       width: 120px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
     }
     .section-programs {
       width: 120px;
@@ -628,8 +634,8 @@ footer {
         .cardIMg {
           background-size: contain;
         }
-        .cardText{
-          h2{
+        .cardText {
+          h2 {
             font-size: 16px;
           }
         }
