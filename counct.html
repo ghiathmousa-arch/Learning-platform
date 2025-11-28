@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="./asses/css/counct.css">
     <title>counct</title>
 </head>
@@ -81,24 +85,32 @@
                 </div>
             </div>
         </div>
-        <img src="./asses/image/counct/map.png" alt="">
+        <div class="img">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13307.54426077354!2d36.33897369999999!3d33.50434130000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1764239532686!5m2!1sar!2s"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
     </div>
 
-  <section class="sec2">
-    <form action="">
-       <h2>Contact us</h2>
+    <section class="counct-us">
+        <form>
+            <h2>Contact us</h2>
             <p>Your email address will not be published. Required fields are marked *</p>
             <div class="input">
                 <input type="text" placeholder="Name*" class="text" required>
                 <input type="text" placeholder="Email*" class="text" required>
             </div>
             <textarea name="" id="" placeholder="Comment" class="text2"></textarea>
-            <input type="checkbox" id="num" required class="SaveName">
-            <label for="num" class="SaveName2">Save my name, email in this brower for the next time I comment</label> 
-    </form>
-     <button class="btn">aaa</button>
-   
-        </section>
+            <div class="save">
+                <input type="checkbox" id="num" required>
+                <label for="num" class="savename">Save my name, email in this brower for the next time I comment</label>
+            </div>
+
+        </form>
+        <button class="btn">Posts comment</button>
+
+    </section>
 
     <footer>
         <div class="container">

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Exo;
 }
 
 nav {
@@ -31,8 +32,6 @@ nav {
     height: 72px;
     display: flex;
     gap: 10px;
-    /* .box-selctor {
-    } */
     .box-selector {
       .imgandtext {
         display: flex;
@@ -90,6 +89,7 @@ nav {
         background-color: #f5f5f5;
       }
       a {
+        font-size: 15px;
         text-decoration: none;
         color: #000000;
         font-weight: bold;
@@ -185,6 +185,7 @@ nav {
     border-radius: 10px;
     color: #ffffff;
     border: 1px solid var(--Light_grey, #eaeaea);
+    
     h1 {
       font-size: 32px;
       margin-bottom: 30px;
@@ -195,6 +196,22 @@ nav {
       padding: 12px 15px;
       border: 1px solid var(--Grey, #9d9d9d);
       border-radius: 5px;
+        transition: 0.25s ease;
+
+      &:hover {
+        border-color: #ff782d;
+        transform: translateY(-2px);
+      }
+
+      &:focus {
+        border-color: #ff782d;
+        box-shadow: 0 0 6px rgba(255, 120, 45, 0.4);
+        outline: none;
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
     }
     button {
       background-color: #ff782d;
@@ -217,7 +234,6 @@ nav {
       font-size: 14px;
       color: #000000;
       text-decoration: none;
-      
     }
     .ic {
       position: relative;
@@ -236,7 +252,6 @@ nav {
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
-        
       }
     }
     .login {

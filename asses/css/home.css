@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Exo;
 }
 
 .btn {
@@ -152,6 +153,7 @@ nav {
         background-color: #f5f5f5;
       }
       a {
+        font-size: 15px;
         text-decoration: none;
         color: #000000;
         font-weight: bold;
