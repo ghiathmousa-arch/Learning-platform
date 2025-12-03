@@ -659,7 +659,7 @@ footer {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      a{
+      a {
         color: #000000;
         text-decoration: none;
       }
@@ -700,6 +700,22 @@ footer {
     text-align: center;
     line-height: 150%;
     letter-spacing: 0%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .top-categorie {
+    .container {
+      grid-template-columns: repeat(4, 1fr);
+      padding: 16px 20px;
+      .card {
+        width: 200px;
+        height: 200px;
+        img {
+          margin: 58px 101px 0 85px;
+        }
+      }
+    }
   }
 }
 
@@ -946,6 +962,7 @@ footer {
   }
 
   .hero {
+    text-align: center;
     background-image: url(./../image/home/hero-media.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -953,6 +970,7 @@ footer {
       padding: 136px 20px;
       h1 {
         text-align: center;
+        justify-content: center;
         font-size: 32px;
         line-height: 120%;
         letter-spacing: 0%;
@@ -972,16 +990,19 @@ footer {
   }
 
   .top-categorie {
-    padding: 56px 10px;
+    padding: 56px 36px;
     .head {
+      justify-content: center;
+
       .text {
         padding: 0 28px;
         text-align: center;
         h1 {
-          font-size: 22px;
+          font-size: 17px;
+          padding-bottom: 5px;
         }
         p {
-          font-size: 12px;
+          font-size: 10px;
         }
       }
       .btn-categorie {
@@ -991,9 +1012,10 @@ footer {
 
     .container {
       width: 100%;
-      padding: 10px 25px;
+      padding: 4px 50px;
       display: flex;
       flex-direction: column;
+      align-items: center;
       .card {
         padding: 0;
       }
@@ -1059,6 +1081,7 @@ footer {
 
   .visit {
     flex-direction: column;
+    align-items: center;
     margin: 70px 38px;
     .card {
       width: 200px;
@@ -1080,7 +1103,7 @@ footer {
         font-size: 20px;
         line-height: 120%;
       }
-      p{
+      p {
         font-size: 12px;
       }
     }
