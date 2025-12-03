@@ -330,10 +330,11 @@ nav {
   .container {
     display: flex;
     justify-content: space-between;
-
+    gap: 6px;
+    padding: 0 50px;
     .card {
-      max-width: 385px;
-      max-height: 474px;
+      max-width: 356px;
+      max-height: 476px;
       border-radius: 20px;
       border: 1px solid var(--Light_grey, #eaeaea);
       background-repeat: no-repeat;
@@ -714,6 +715,17 @@ footer {
         img {
           margin: 58px 101px 0 85px;
         }
+      }
+    }
+  }
+
+  .featured-courses {
+    .container {
+      justify-content: none;
+      gap: 12px;
+      .card {
+        max-width: 300px;
+        max-height: 464px;
       }
     }
   }
